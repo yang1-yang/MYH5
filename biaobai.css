@@ -1,0 +1,74 @@
+body{
+    background-image: url(a.jpg);
+    background-repeat: repeat-y;
+    background-position: top; 
+}
+
+
+@keyframes code1{
+   0% {opacity: 0}
+    25% { opacity: 100}    
+    50% {opacity: 100}    
+    75% {opacity: 100}    
+    100% {opacity: 100}    
+}
+@keyframes code2{
+   0% {opacity: 0}
+    25% { opacity: 0}    
+    50% {opacity: 100}    
+    75% {opacity: 100}    
+    100% {opacity: 100}    
+}
+@keyframes code3{
+   0% {opacity: 0}
+    25% { opacity: 0}    
+    50% {opacity: 0}    
+    75% {opacity: 100}    
+    100% {opacity: 100}    
+}
+@keyframes code4{
+   0% {opacity: 0}
+    25% { opacity: 0}    
+    50% {opacity: 0}    
+    75% {opacity: 0}    
+    100% {opacity: 100}    
+}
+@keyframes code5{
+   0% {opacity: 0}
+    25% { opacity: 0}    
+    50% {opacity: 0}    
+    75% {opacity: 0}    
+    100% {opacity: 0} 
+    125%{
+        opacity: 100
+    }   
+}
+
+
+p{
+
+    text-align: center;
+   color: pink;
+   font-size: 30px;
+   
+ }
+ #a{
+    animation: code1 15s;
+   
+ }
+ #b{
+    animation: code2 15s;
+   
+ }
+ #c{
+    animation: code3 15s;
+   
+ }
+ #d{
+    animation: code4 15s;
+   
+ }
+ #e{
+    animation: code5 15s;
+   
+ }
